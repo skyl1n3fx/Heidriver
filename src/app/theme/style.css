@@ -1,0 +1,22 @@
+/*
+    Fuentes de Google
+*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap');
+@import 'normalize.css';
+
+/*
+    Estilos Globales de la APP
+*/
+
+*{
+    font-family: 'Outfit';
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+

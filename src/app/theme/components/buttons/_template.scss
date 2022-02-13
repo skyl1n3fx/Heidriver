@@ -1,0 +1,26 @@
+////////////////////////////////
+//Plantillas de bótones 
+///////////////////////////////
+
+// Recibe 2 colores 
+@mixin button1($color1, $color2) {
+    border: 2px solid $color1;
+    background: $color2;
+    width: 15rem;
+    height: 3rem;
+    border-radius: .5rem;
+
+    &:hover {
+        transition: 0.3s all;
+        background-color: $color1;
+        color: $color2;
+        transform: scale(1.1)
+    }
+
+    &:active{
+        transform: scale(.9);
+    }
+}
+
+
+
